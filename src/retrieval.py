@@ -4,7 +4,7 @@ import json
 import os
 
 
-DATA_FILE = "../data/data.json"
+DATA_FILE = "data/data.json"
 
 
 def initial_retrieval():
