@@ -8,7 +8,7 @@ resolution-markers = [
 ]
 
 [[package]]
-name = "lexplore"
+name = "lexplorer"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
