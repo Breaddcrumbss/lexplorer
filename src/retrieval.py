@@ -15,13 +15,6 @@ def initial_retrieval():
         "_size": 1000,
         "_shape": "objects" # Keeps rows as a list of dicts
     }
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0",
-        "Accept": "application/json, text/plain, */*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Referer": "https://data.zeeker.sg/",
-        "Origin": "https://data.zeeker.sg"
-    }
 
     all_data = []
     next_token = None
@@ -76,6 +69,13 @@ def incremental_update():
         "rowid__gt": last_rowid, # Datasette's built-in "Greater Than" operator
         "_sort": "rowid"
     }
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://data.zeeker.sg/",
+        "Origin": "https://data.zeeker.sg"
+    }
 
     new_records = []
     next_token = None
@@ -85,7 +85,7 @@ def incremental_update():
             params["_next"] = next_token
         
         try:
-            response = requests.get(base_url, params=params)
+            response = requests.get(base_url, params=params, headers=headers)
             response.raise_for_status()
             data = response.json()
         except Exception as e:
