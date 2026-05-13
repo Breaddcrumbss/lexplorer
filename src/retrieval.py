@@ -2,6 +2,7 @@ import requests
 import time
 import json
 import os
+import sys
 
 
 DATA_FILE = "data/data.json"
@@ -14,6 +15,13 @@ def initial_retrieval():
         "_size": 1000,
         "_shape": "objects" # Keeps rows as a list of dicts
     }
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://data.zeeker.sg/",
+        "Origin": "https://data.zeeker.sg"
+    }
 
     all_data = []
     next_token = None
@@ -24,7 +32,7 @@ def initial_retrieval():
             params["_next"] = next_token
         
         print(f"Fetching data... (current count: {len(all_data)})")
-        response = requests.get(base_url, params=params)
+        response = requests.get(base_url, params=params, headers=headers)
         data = response.json()
         
         # Append the rows from this page to our main list
@@ -82,7 +90,7 @@ def incremental_update():
             data = response.json()
         except Exception as e:
             print(f"Error fetching data: {e}")
-            break
+            sys.exit(1)
         
         rows = data.get("rows", [])
         if not rows:
