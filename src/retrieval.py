@@ -31,7 +31,7 @@ def initial_retrieval():
             params["_next"] = next_token
         
         print(f"Fetching data... (current count: {len(all_data)})")
-        response = requests.get(base_url, params=params, headers=headers)
+        response = requests.get(base_url, params=params)
         data = response.json()
         
         # Append the rows from this page to our main list
