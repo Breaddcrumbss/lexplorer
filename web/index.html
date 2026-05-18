@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lexplorer Subject Visualizer</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Dashboard controls">
+        <div class="brand-block">
+          <p class="eyebrow">Lexplorer</p>
+          <h1>Subject Tags</h1>
+          <p id="dataStatus" class="status-text">Loading data...</p>
+        </div>
+
+        <section class="metric-grid" aria-label="Overview">
+          <article class="metric-card">
+            <span class="metric-label">Tags</span>
+            <strong id="tagCount">-</strong>
+          </article>
+          <article class="metric-card">
+            <span class="metric-label">Leaves</span>
+            <strong id="leafCount">-</strong>
+          </article>
+          <article class="metric-card">
+            <span class="metric-label">Depth</span>
+            <strong id="maxDepth">-</strong>
+          </article>
+          <article class="metric-card">
+            <span class="metric-label">Judgments</span>
+            <strong id="caseCount">-</strong>
+          </article>
+        </section>
+
+        <section class="control-group" aria-label="Subject filters">
+          <label class="field-label" for="subjectSearch">Subject search</label>
+          <input id="subjectSearch" class="text-input" type="search" autocomplete="off" placeholder="Search tags">
+
+          <div class="range-row">
+            <label class="field-label" for="minCount">Minimum count</label>
+            <output id="minCountValue" for="minCount">1</output>
+          </div>
+          <input id="minCount" type="range" min="1" max="100" value="1">
+
+          <div class="two-up">
+            <label class="field-label select-label" for="maxDepthFilter">
+              Depth
+              <select id="maxDepthFilter">
+                <option value="2">2 levels</option>
+                <option value="3">3 levels</option>
+                <option value="4" selected>4 levels</option>
+                <option value="6">6 levels</option>
+                <option value="99">All levels</option>
+              </select>
+            </label>
+
+            <label class="field-label select-label" for="sortOrder">
+              Sort
+              <select id="sortOrder">
+                <option value="count" selected>Count</option>
+                <option value="name">Name</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="button-row">
+            <button id="resetFilters" type="button" class="secondary-button">Reset</button>
+            <button id="expandTree" type="button" class="secondary-button">Expand</button>
+            <button id="collapseTree" type="button" class="secondary-button">Collapse</button>
+          </div>
+        </section>
+
+        <section class="control-group" aria-label="Judgment filters">
+          <label class="field-label select-label" for="courtFilter">
+            Court
+            <select id="courtFilter" disabled>
+              <option value="all">All courts</option>
+            </select>
+          </label>
+
+          <label class="field-label" for="caseSearch">Case search</label>
+          <input id="caseSearch" class="text-input" type="search" autocomplete="off" placeholder="Search cases" disabled>
+        </section>
+
+        <section class="top-subjects" aria-label="Top subjects">
+          <div class="section-head">
+            <h2>Top Subjects</h2>
+          </div>
+          <div id="topSubjects" class="top-list"></div>
+        </section>
+      </aside>
+
+      <main class="workspace">
+        <header class="workspace-header">
+          <div>
+            <p class="eyebrow">Current Scope</p>
+            <h2 id="scopeTitle">All subjects</h2>
+            <div id="breadcrumb" class="breadcrumb" aria-label="Breadcrumb"></div>
+          </div>
+          <div class="header-actions">
+            <button id="parentScope" type="button" class="secondary-button" disabled>Up</button>
+            <button id="rootScope" type="button" class="primary-button">Root</button>
+          </div>
+        </header>
+
+        <section class="visual-grid">
+          <div class="panel panel-treemap">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Map</p>
+                <h3>Subject weight</h3>
+              </div>
+              <span id="visibleTileCount" class="pill">0 tiles</span>
+            </div>
+            <svg id="treemap" class="treemap" role="img" aria-label="Subject treemap"></svg>
+          </div>
+
+          <div class="panel panel-detail">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Selected</p>
+                <h3 id="selectedTitle">All subjects</h3>
+              </div>
+              <span id="selectedCount" class="pill">0</span>
+            </div>
+            <dl class="detail-list">
+              <div>
+                <dt>Path</dt>
+                <dd id="selectedPath">All subjects</dd>
+              </div>
+              <div>
+                <dt>Children</dt>
+                <dd id="selectedChildren">-</dd>
+              </div>
+              <div>
+                <dt>Depth</dt>
+                <dd id="selectedDepth">-</dd>
+              </div>
+            </dl>
+            <div id="timeline" class="timeline" aria-label="Judgments by year"></div>
+          </div>
+        </section>
+
+        <section class="panel tree-panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Hierarchy</p>
+              <h3>Filtered tree</h3>
+            </div>
+            <span id="visibleNodeCount" class="pill">0 nodes</span>
+          </div>
+          <div id="treeList" class="tree-list" role="tree"></div>
+        </section>
+
+        <section class="panel cases-panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Judgments</p>
+              <h3 id="casesTitle">Matching cases</h3>
+            </div>
+            <span id="caseResultCount" class="pill">Loading</span>
+          </div>
+          <div id="casesList" class="cases-list"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
