@@ -1,6 +1,6 @@
 # About
 
-Dashboard for visualising data from SG publicly available judgments. Data analysis, cleaning and my thought process available in ```src/analysis/ipynb```
+Dashboard for visualising data from SG publicly available judgments. Data analysis, cleaning and my thought process available in `src/analysis.ipynb`
 
 ## Subject tag visualizer
 
