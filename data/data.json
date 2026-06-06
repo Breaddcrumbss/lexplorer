@@ -212138,5 +212138,25 @@
         "fragment_count": 22,
         "extracted_at": "2026-06-04T21:49:22",
         "summary_generated_at": "2026-06-04T23:03:27"
+    },
+    {
+        "rowid": 10611,
+        "id": "f18ef5d2595b",
+        "citation": "[2026] SGHC(A) 17",
+        "case_name": "DEEPAK MISHRA & Anor  v RASHMI BOTHRA",
+        "case_numbers": "AD/CA 86/2025",
+        "decision_date": "2026-06-05",
+        "court": "SGHCA",
+        "subject_tags": "[\"Contract — Illegality and public policy\"]",
+        "source_url": "https://www.elitigation.sg/gd/s/2026_SGHCA_17",
+        "pdf_url": "",
+        "court_summary": null,
+        "summary": null,
+        "created_at": "2026-06-05T21:07:18.487958",
+        "has_content": null,
+        "has_court_summary": null,
+        "fragment_count": null,
+        "extracted_at": null,
+        "summary_generated_at": null
     }
 ]
