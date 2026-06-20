@@ -212718,5 +212718,25 @@
         "fragment_count": null,
         "extracted_at": null,
         "summary_generated_at": null
+    },
+    {
+        "rowid": 10644,
+        "id": "f5390cbc2776",
+        "citation": "[2026] SGHC(I) 6",
+        "case_name": "DVA & Anor v DVC",
+        "case_numbers": "SIC/OA 8/2026 ( SIC/SUM 25/2026 )",
+        "decision_date": "2026-06-19",
+        "court": "SGHCI",
+        "subject_tags": "[\"Civil Procedure — Rules of court — Singapore International Commercial Court — Offshore case\"]",
+        "source_url": "https://www.elitigation.sg/gd/s/2026_SGHCI_6",
+        "pdf_url": "",
+        "court_summary": null,
+        "summary": null,
+        "created_at": "2026-06-20T03:07:10.816244",
+        "has_content": null,
+        "has_court_summary": null,
+        "fragment_count": null,
+        "extracted_at": null,
+        "summary_generated_at": null
     }
 ]
