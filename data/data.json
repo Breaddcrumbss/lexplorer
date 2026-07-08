@@ -213498,5 +213498,25 @@
         "fragment_count": null,
         "extracted_at": null,
         "summary_generated_at": null
+    },
+    {
+        "rowid": 10683,
+        "id": "fe0db81324e2",
+        "citation": "[2026] SGSCT 18",
+        "case_name": "JID v JIE",
+        "case_numbers": "SCT/11553/2025",
+        "decision_date": "2026-07-07",
+        "court": "SGSCT",
+        "subject_tags": "[\"Small Claims Tribunals — Costs — Whether costs should be awarded for the Respondent’s deliberate absence at trial under s 35(1)(f) of the Small Claims Tribunals Act 1984 (2020 Rev Ed)\", \"Small Claims Tribunals — Procedure — Adjournment or vacation of hearings — Application for change of court date under para 46 of the State Courts Practice Directions 2021 — Strict judicial policy on observing hearing dates — Strong compelling grounds needed before tribunal exercises discretion to vacate hearing dates\", \"Small Claims Tribunals — Procedure — Absence due to medical grounds — Requirements for medical certificates under para 14 of the State Courts Practice Directions 2021 — Tribunal entitled to reject non-compliant medical certificates — Whether Respondent’s repeated non-compliance with requirements for medical certificates was excusable\", \"Small Claims Tribunals — Judgments and orders — Application under s 41(1) of the Small Claims Tribunals Act 1984 (2020 Rev Ed) to set aside default judgment issued after trial in Respondent’s absence — Whether there were countervailing factors tilting balance in favour of setting aside default judgment when Respondent was deliberately absent at trial\"]",
+        "source_url": "https://www.elitigation.sg/gd/s/2026_SGSCT_18",
+        "pdf_url": "https://www.elitigation.sg/gd/gd/%5B2026%5D%20SGSCT%2018/pdf",
+        "court_summary": null,
+        "summary": null,
+        "created_at": "2026-07-08T03:07:18.324583",
+        "has_content": null,
+        "has_court_summary": null,
+        "fragment_count": null,
+        "extracted_at": null,
+        "summary_generated_at": null
     }
 ]
