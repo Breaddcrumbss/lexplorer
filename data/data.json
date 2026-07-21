@@ -214018,5 +214018,25 @@
         "fragment_count": 280,
         "extracted_at": "2026-07-18T00:07:27",
         "summary_generated_at": "2026-07-18T00:19:19"
+    },
+    {
+        "rowid": 10709,
+        "id": "ca97178d0df8",
+        "citation": "[2026] SGHC 153",
+        "case_name": "LAM, KIN HING KENNETH v YUNG, MAN TUNG",
+        "case_numbers": "HC/OC 748/2023",
+        "decision_date": "2026-07-21",
+        "court": "SGHC",
+        "subject_tags": "[\"Contract — Breach\", \"Trusts — Quistclose trusts\", \"Contract — Contractual terms\", \"Contract — Remedies — Damages\", \"Restitution — Unjust enrichment — Total failure of consideration\"]",
+        "source_url": "https://www.elitigation.sg/gd/s/2026_SGHC_153",
+        "pdf_url": "https://www.elitigation.sg/gd/gd/%5B2026%5D%20SGHC%20153/pdf",
+        "court_summary": "",
+        "summary": "**Facts**\nThe claimant, Mr. Lam Kin Hing Kenneth, and the defendant, Mr. Yung Man Tung, were long-standing friends. In December 2017 and January 2018, the defendant was granted options to purchase (OTPs) several properties developed by TG Master Pte Ltd, including 15 Miltonia Close (“15MC”) and 17 Miltonia Close (“17MC”). Around May or June 2018, the defendant offered the claimant an investment opportunity in these properties. On 8 June 2018, the parties signed a written agreement in Hong Kong, and the defendant provided letters of nomination and authority purportedly nominating the claimant to exercise the OTPs.\n\nOn 11 June 2018, the claimant paid the defendant HK$13,450,000 (approximately S$2,280,000) as deposits. On 21 August 2018, he paid a further HK$15,750,560 for 17MC. In December 2019, the defendant claimed the 17MC payment had been applied to 15MC instead. Consequently, the claimant paid the developer S$2,241,821.25 plus stamp duties to acquire 17MC, completing the purchase on 28 February 2020. Despite requests between March 2020 and June 2023, the defendant failed to transfer the legal title of 15MC to the claimant, as the defendant and Tung Kee were embroiled in litigation with the developer.\n\nThe dispute centers on whether the 8 June 2018 agreement was for the sale of the properties themselves or merely a sale of the OTPs. The defendant counterclaimed for S$2,000,000 and future damages relating to the litigation with the developer.\n\n**Holding**\nThe court held that the parties agreed to the sale of the properties themselves, and the defendant breached the agreement by failing to procure the transfer of the legal title of 15MC to the claimant. The court rejected the claimant's alternative claims based on *Quistclose* trusts and unjust enrichment. The court dismissed the defendant's counterclaim in its entirety. The court awarded the claimant expectation damages in the sum of S$3,300,875.\n\n**Reasons**\nThe court applied the principles of contractual interpretation from *Yap Son On v Ding Pei Zhen*, *CIFG Special Assets Capital I Ltd v Ong Puay Koon*, and *Y.E.S F&B Group Pte Ltd v Soup Restaurant Singapore Pte Ltd*, focusing on objective contextual meaning. It concluded the agreement was for the sale of the villas based on the language used, the defendant's obligations to handle transfer procedures and hand over keys, subsequent WhatsApp conduct, and commercial rationality (*Ang Tin Yong v Ang Boon Chye*, *Mannai Investment Co Ltd v Eagle Star Assurance Co Ltd*, and *Rainy Sky SA v Kookmin Bank*). The court dismissed arguments regarding Mandarin \"cultural nuances\" and found the defendant’s claim about shredding records to be a falsehood. Regarding the breach, the court held that a subsequent letter suggesting the claimant instruct his own solicitors was an ineffective variation for want of consideration (*Ma Hongjin v SCP Holdings Pte Ltd*).\n\nRegarding the *Quistclose* trust claim, the court noted that such a trust requires the twin certainties of subject matter and objects, and that the donor must lack the intention to part with the entire beneficial interest (*Twinsectra Ltd v Yardley*). Citing *AH PETC*, the court reasoned that a trust does not arise simply because money is paid for a specific purpose. As this was a simple sale and purchase agreement, the defendant enjoyed full beneficial ownership and free disposal of the funds, which is inconsistent with a trust.\n\nRegarding unjust enrichment, the court noted that a claim requires enrichment at the claimant's expense, an unjust factor, and the absence of defences. Relying on *Thong Soon Seng v Magnus Energy Group Ltd* and *Wee Chiaw Sek Anna v Ng Li-Ann Genevieve*, the court found the claimant failed to prove the \"unjust factor\" of total failure of consideration because the agreement remained a valid contract (*Shanghai Afute Food and Beverage Management Co Ltd v Tan Swee Meng*).",
+        "created_at": "2026-07-21T06:07:26.391391",
+        "has_content": 1,
+        "has_court_summary": 0,
+        "fragment_count": 95,
+        "extracted_at": "2026-07-21T12:07:09",
+        "summary_generated_at": "2026-07-21T12:10:13"
     }
 ]
