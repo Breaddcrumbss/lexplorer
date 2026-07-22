@@ -214038,5 +214038,25 @@
         "fragment_count": 95,
         "extracted_at": "2026-07-21T12:07:09",
         "summary_generated_at": "2026-07-21T12:10:13"
+    },
+    {
+        "rowid": 10710,
+        "id": "d774a01644f5",
+        "citation": "[2026] SGFC 96",
+        "case_name": "YFS v YFR",
+        "case_numbers": "HCF/DCA 35/2026",
+        "decision_date": "2026-07-21",
+        "court": "SGFC",
+        "subject_tags": "[\"Child Maintenance - Women’s Charter s.69\"]",
+        "source_url": "https://www.elitigation.sg/gd/s/2026_SGFC_96",
+        "pdf_url": "https://www.elitigation.sg/gd/gd/%5B2026%5D%20SGFC%2096/pdf",
+        "court_summary": null,
+        "summary": null,
+        "created_at": "2026-07-22T12:07:06.117640",
+        "has_content": null,
+        "has_court_summary": null,
+        "fragment_count": null,
+        "extracted_at": null,
+        "summary_generated_at": null
     }
 ]
