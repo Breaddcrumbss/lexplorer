@@ -214978,5 +214978,25 @@
         "fragment_count": 0,
         "extracted_at": "2026-08-08T12:07:35",
         "summary_generated_at": null
+    },
+    {
+        "rowid": 10757,
+        "id": "03aa9c1d1672",
+        "citation": "[2026] SGMC 95",
+        "case_name": "ERWIN CHONG XUE YOONG v CHUA YAN SUAN, SAMANTHA",
+        "case_numbers": "MC/OC 6907/2025",
+        "decision_date": "2026-08-11",
+        "court": "SGMC",
+        "subject_tags": "[\"Trust — Resulting trust\", \"Trust — Constructive trust\", \"Restitution — Unjust enrichment\", \"Tort — Negligent misrepresentation\", \"Tort — Fraudulent misrepresentation\"]",
+        "source_url": "https://www.elitigation.sg/gd/s/2026_SGMC_95",
+        "pdf_url": "https://www.elitigation.sg/gd/gd/%5B2026%5D%20SGMC%2095/pdf",
+        "court_summary": null,
+        "summary": null,
+        "created_at": "2026-08-11T12:07:44.970099",
+        "has_content": null,
+        "has_court_summary": null,
+        "fragment_count": null,
+        "extracted_at": null,
+        "summary_generated_at": null
     }
 ]
