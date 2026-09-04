@@ -216318,5 +216318,25 @@
         "fragment_count": null,
         "extracted_at": null,
         "summary_generated_at": null
+    },
+    {
+        "rowid": 10825,
+        "id": "8de19ef82305",
+        "citation": "[2026] SGFC 124",
+        "case_name": "YIA v YIB",
+        "case_numbers": "FC/OAD 672/2025|HCF/DCA 66/2026",
+        "decision_date": "2026-09-03",
+        "court": "SGFC",
+        "subject_tags": "[\"Family law — Custody – Care and Control and Access to Children\"]",
+        "source_url": "https://www.elitigation.sg/gd/s/2026_SGFC_124",
+        "pdf_url": "https://www.elitigation.sg/gd/gd/%5B2026%5D%20SGFC%20124/pdf",
+        "court_summary": null,
+        "summary": null,
+        "created_at": "2026-09-04T08:08:14.864117",
+        "has_content": null,
+        "has_court_summary": null,
+        "fragment_count": null,
+        "extracted_at": null,
+        "summary_generated_at": null
     }
 ]
